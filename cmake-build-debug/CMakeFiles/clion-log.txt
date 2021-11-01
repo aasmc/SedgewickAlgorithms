@@ -1,0 +1,4 @@
+/home/aleksas/Загрузки/CLion-2021.2.3/clion-2021.2.3/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/usr/bin/make -DCMAKE_C_COMPILER=/usr/bin/clang-11 -DCMAKE_CXX_COMPILER=/usr/bin/clang++-11 -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - Unix Makefiles" /home/aleksas/CLionProjects/SedgewickAlgorithms
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/aleksas/CLionProjects/SedgewickAlgorithms/cmake-build-debug

@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/aleksas/CLionProjects/SedgewickAlgorithms/chapter01/program_one.cpp
+iostream
+/home/aleksas/CLionProjects/SedgewickAlgorithms/chapter01/iostream
+
+/home/aleksas/CLionProjects/SedgewickAlgorithms/chapter01/program_two.cpp
+iostream
+/home/aleksas/CLionProjects/SedgewickAlgorithms/chapter01/iostream
+
