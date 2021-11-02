@@ -129,6 +129,30 @@ SedgewickAlgorithms/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SedgewickAlgorithms.dir/build.make CMakeFiles/SedgewickAlgorithms.dir/build
 .PHONY : SedgewickAlgorithms/fast
 
+chapter01/program_five.o: chapter01/program_five.cpp.o
+.PHONY : chapter01/program_five.o
+
+# target to build an object file
+chapter01/program_five.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SedgewickAlgorithms.dir/build.make CMakeFiles/SedgewickAlgorithms.dir/chapter01/program_five.cpp.o
+.PHONY : chapter01/program_five.cpp.o
+
+chapter01/program_five.i: chapter01/program_five.cpp.i
+.PHONY : chapter01/program_five.i
+
+# target to preprocess a source file
+chapter01/program_five.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SedgewickAlgorithms.dir/build.make CMakeFiles/SedgewickAlgorithms.dir/chapter01/program_five.cpp.i
+.PHONY : chapter01/program_five.cpp.i
+
+chapter01/program_five.s: chapter01/program_five.cpp.s
+.PHONY : chapter01/program_five.s
+
+# target to generate assembly for a file
+chapter01/program_five.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SedgewickAlgorithms.dir/build.make CMakeFiles/SedgewickAlgorithms.dir/chapter01/program_five.cpp.s
+.PHONY : chapter01/program_five.cpp.s
+
 chapter01/program_four.o: chapter01/program_four.cpp.o
 .PHONY : chapter01/program_four.o
 
@@ -234,6 +258,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... SedgewickAlgorithms"
+	@echo "... chapter01/program_five.o"
+	@echo "... chapter01/program_five.i"
+	@echo "... chapter01/program_five.s"
 	@echo "... chapter01/program_four.o"
 	@echo "... chapter01/program_four.i"
 	@echo "... chapter01/program_four.s"
