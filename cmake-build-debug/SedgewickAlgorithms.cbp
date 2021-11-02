@@ -85,6 +85,9 @@
 		<Unit filename="/home/aleksas/CLionProjects/SedgewickAlgorithms/chapter01/program_one.cpp">
 			<Option target="SedgewickAlgorithms"/>
 		</Unit>
+		<Unit filename="/home/aleksas/CLionProjects/SedgewickAlgorithms/chapter01/program_three.cpp">
+			<Option target="SedgewickAlgorithms"/>
+		</Unit>
 		<Unit filename="/home/aleksas/CLionProjects/SedgewickAlgorithms/chapter01/program_two.cpp">
 			<Option target="SedgewickAlgorithms"/>
 		</Unit>

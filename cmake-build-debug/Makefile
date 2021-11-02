@@ -153,6 +153,30 @@ chapter01/program_one.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SedgewickAlgorithms.dir/build.make CMakeFiles/SedgewickAlgorithms.dir/chapter01/program_one.cpp.s
 .PHONY : chapter01/program_one.cpp.s
 
+chapter01/program_three.o: chapter01/program_three.cpp.o
+.PHONY : chapter01/program_three.o
+
+# target to build an object file
+chapter01/program_three.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SedgewickAlgorithms.dir/build.make CMakeFiles/SedgewickAlgorithms.dir/chapter01/program_three.cpp.o
+.PHONY : chapter01/program_three.cpp.o
+
+chapter01/program_three.i: chapter01/program_three.cpp.i
+.PHONY : chapter01/program_three.i
+
+# target to preprocess a source file
+chapter01/program_three.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SedgewickAlgorithms.dir/build.make CMakeFiles/SedgewickAlgorithms.dir/chapter01/program_three.cpp.i
+.PHONY : chapter01/program_three.cpp.i
+
+chapter01/program_three.s: chapter01/program_three.cpp.s
+.PHONY : chapter01/program_three.s
+
+# target to generate assembly for a file
+chapter01/program_three.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SedgewickAlgorithms.dir/build.make CMakeFiles/SedgewickAlgorithms.dir/chapter01/program_three.cpp.s
+.PHONY : chapter01/program_three.cpp.s
+
 chapter01/program_two.o: chapter01/program_two.cpp.o
 .PHONY : chapter01/program_two.o
 
@@ -189,6 +213,9 @@ help:
 	@echo "... chapter01/program_one.o"
 	@echo "... chapter01/program_one.i"
 	@echo "... chapter01/program_one.s"
+	@echo "... chapter01/program_three.o"
+	@echo "... chapter01/program_three.i"
+	@echo "... chapter01/program_three.s"
 	@echo "... chapter01/program_two.o"
 	@echo "... chapter01/program_two.i"
 	@echo "... chapter01/program_two.s"

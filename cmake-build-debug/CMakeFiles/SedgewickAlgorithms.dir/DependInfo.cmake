@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/aleksas/CLionProjects/SedgewickAlgorithms/chapter01/program_one.cpp" "/home/aleksas/CLionProjects/SedgewickAlgorithms/cmake-build-debug/CMakeFiles/SedgewickAlgorithms.dir/chapter01/program_one.cpp.o"
+  "/home/aleksas/CLionProjects/SedgewickAlgorithms/chapter01/program_three.cpp" "/home/aleksas/CLionProjects/SedgewickAlgorithms/cmake-build-debug/CMakeFiles/SedgewickAlgorithms.dir/chapter01/program_three.cpp.o"
   "/home/aleksas/CLionProjects/SedgewickAlgorithms/chapter01/program_two.cpp" "/home/aleksas/CLionProjects/SedgewickAlgorithms/cmake-build-debug/CMakeFiles/SedgewickAlgorithms.dir/chapter01/program_two.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "Clang")

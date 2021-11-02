@@ -3,4 +3,4 @@ project(SedgewickAlgorithms)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(SedgewickAlgorithms chapter01/program_one.cpp chapter01/program_two.cpp)
+add_executable(SedgewickAlgorithms chapter01/program_one.cpp chapter01/program_two.cpp chapter01/program_three.cpp)
