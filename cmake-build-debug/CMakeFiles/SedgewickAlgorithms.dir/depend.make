@@ -3,5 +3,7 @@
 
 CMakeFiles/SedgewickAlgorithms.dir/chapter01/program_one.cpp.o: \
  ../chapter01/program_one.cpp
+CMakeFiles/SedgewickAlgorithms.dir/chapter01/program_three.cpp.o: \
+ ../chapter01/program_three.cpp
 CMakeFiles/SedgewickAlgorithms.dir/chapter01/program_two.cpp.o: \
  ../chapter01/program_two.cpp

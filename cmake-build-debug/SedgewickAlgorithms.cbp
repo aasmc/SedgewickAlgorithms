@@ -82,6 +82,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/aleksas/CLionProjects/SedgewickAlgorithms/chapter01/program_four.cpp">
+			<Option target="SedgewickAlgorithms"/>
+		</Unit>
 		<Unit filename="/home/aleksas/CLionProjects/SedgewickAlgorithms/chapter01/program_one.cpp">
 			<Option target="SedgewickAlgorithms"/>
 		</Unit>

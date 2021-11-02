@@ -5,9 +5,9 @@ using namespace std;
 
 static const int N = 1000;
 
-// weighted quick union algorithm
+// weighted quick union with path compression by halving
 
-int mainThree() {
+int main() {
     int p, q;
     array<int, N> id{};
     // stores number of nodes in a tree, allowing to connect a smaller tree to a greater tree,
@@ -30,8 +30,14 @@ int mainThree() {
         // component. If the components are equal (j == j) then p and q are connected, so we skip the pair.
         // if the last components are not equal, then p and q are not connected, so we connect them
         // together (id[i] = j) and print the pair p-q.
-        for (i = p; i != id[i]; i = id[i]);
-        for (j = q; j != id[j]; j = id[j]);
+        for (i = p; i != id[i]; i = id[i]) {
+            // this is path compression. We make this node of the tree point not to the node right above it (i.e. parent)
+            // but to the node above the parent (i.e. grandparent). Thus we compress the path from this node the root node.
+            id[i] = id[id[i]];
+        }
+        for (j = q; j != id[j]; j = id[j]) {
+            id[j] = id[id[j]];
+        }
         if (i == j) continue;
         // check the number of nodes in the trees and select a smaller one
         // then update the number of nodes in the greater tree
