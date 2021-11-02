@@ -1,16 +1,22 @@
 #include "iostream"
+#include "array"
 
 using namespace std;
 
-static const int N = 10;
+static const int N = 1000;
 
-// quick find, slow union
+// weighted quick union algorithm
 
 int main() {
-    int p, q, id[N];
-    // step 01: fill the array with consecutive values
+    int p, q;
+    array<int, N> id{};
+    // stores number of nodes in a tree, allowing to connect a smaller tree to a greater tree,
+    // thus preventing the expansion of longer roots in the tree.
+    array<int, N> sz{};
+    // step 01: fill the array with consecutive values and sz array with 1
     for (int i = 0; i < N; ++i) {
         id[i] = i;
+        sz[i] = 1;
     }
 
     while (cin >> p >> q) {
@@ -27,6 +33,15 @@ int main() {
         for (i = p; i != id[i]; i = id[i]);
         for (j = q; j != id[j]; j = id[j]);
         if (i == j) continue;
+        // check the number of nodes in the trees and select a smaller one
+        // then update the number of nodes in the greater tree
+        if (sz[i] < sz[j]) {
+            id[i] = j;
+            sz[j] += sz[i];
+        } else {
+            id[j] = i;
+            sz[i] += sz[j];
+        }
         id[i] = j;
         cout << " " << p << " " << q << endl;
     }

@@ -1,13 +1,14 @@
 #include "iostream"
-
+#include "array"
 using namespace std;
 
-static const int N = 10;
+static const int N = 1000;
 
-// quick find, slow union
+// quick union, slow find
 
 int mainTwo() {
-    int p, q, id[N];
+    int p, q;
+    array<int, N> id{};
     // step 01: fill the array with consecutive values
     for (int i = 0; i < N; ++i) {
         id[i] = i;
