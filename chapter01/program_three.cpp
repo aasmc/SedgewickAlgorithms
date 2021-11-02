@@ -42,7 +42,6 @@ int mainThree() {
             id[j] = i;
             sz[i] += sz[j];
         }
-        id[i] = j;
         cout << " " << p << " " << q << endl;
     }
     return 0;

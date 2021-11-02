@@ -7,7 +7,7 @@ static const int N = 1000;
 
 // weighted quick union with path compression by halving
 
-int main() {
+int mainFour() {
     int p, q;
     array<int, N> id{};
     // stores number of nodes in a tree, allowing to connect a smaller tree to a greater tree,

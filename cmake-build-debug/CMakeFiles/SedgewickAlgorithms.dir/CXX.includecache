@@ -6,6 +6,18 @@
 
 #IncludeRegexTransform: 
 
+/home/aleksas/CLionProjects/SedgewickAlgorithms/chapter01/program_five.cpp
+iostream
+/home/aleksas/CLionProjects/SedgewickAlgorithms/chapter01/iostream
+array
+/home/aleksas/CLionProjects/SedgewickAlgorithms/chapter01/array
+
+/home/aleksas/CLionProjects/SedgewickAlgorithms/chapter01/program_four.cpp
+iostream
+/home/aleksas/CLionProjects/SedgewickAlgorithms/chapter01/iostream
+array
+/home/aleksas/CLionProjects/SedgewickAlgorithms/chapter01/array
+
 /home/aleksas/CLionProjects/SedgewickAlgorithms/chapter01/program_one.cpp
 iostream
 /home/aleksas/CLionProjects/SedgewickAlgorithms/chapter01/iostream
