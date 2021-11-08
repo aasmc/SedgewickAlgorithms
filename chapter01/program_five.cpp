@@ -57,6 +57,7 @@ int mainFive() {
         }
 
         j = q;
+        // here we flatten the tree
         while (j != id[j]) {
             int parent = id[j];
             id[j] = root;
