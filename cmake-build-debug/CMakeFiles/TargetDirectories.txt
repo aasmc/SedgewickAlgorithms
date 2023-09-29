@@ -1,3 +1,0 @@
-/home/aleksas/CLionProjects/SedgewickAlgorithms/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/aleksas/CLionProjects/SedgewickAlgorithms/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/aleksas/CLionProjects/SedgewickAlgorithms/cmake-build-debug/CMakeFiles/SedgewickAlgorithms.dir

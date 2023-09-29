@@ -6,7 +6,7 @@ static const int N = 1000;
 
 // quick union, slow find
 
-int main() {
+int mainTwo() {
     int p, q;
     array<int, N> id{};
     // step 01: fill the array with consecutive values
