@@ -3,4 +3,5 @@ project(SedgewickAlgorithms)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_subdirectory(chapter01)
+add_subdirectory(01chapter)
+add_subdirectory(03chapter)
