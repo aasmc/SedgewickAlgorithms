@@ -1,19 +1,21 @@
 #include "joseph.h"
+#include "singly_linked_list.h"
+
 
 void PrintJosephSolution(int num_people, int num_skipped) {
-    link t = new node(1, 0);
-    t->next = t;
-    link x = t;
+    construct(num_people);
+    Node t, x;
     int i;
-    for(i = 2; i <= num_people; ++i) {
-        // insert to the last position of the cyclic linked list
-        x = (x->next = new node(i, t));
+    for(i = 2, x = new_node(1); i <= num_people; ++i) {
+        t = new_node(i);
+        insert(x, t);
+        x = t;
     }
-    while (x != x->next) {
+    while (x != next(x)) {
         for(i = 1; i < num_skipped; ++i) {
-            x = x->next;
+            x = next(x);
         }
-        x->next = x->next->next;
+        return_to_free(remove_first_from_list(x));
     }
-    std::cout << x->item << std::endl;
+    std::cout << item(x) << std::endl;
 }
